@@ -6,3 +6,4 @@ This is hardware support layer for PHYTEC Boards on top of Isar.
 * phyboard-polis-imx8mm-4
 * phyboard-pollux-imx8mp-3
 * phyboard-segin-imx6ul-6
+* phyboard-mira-imx6qdl-3
