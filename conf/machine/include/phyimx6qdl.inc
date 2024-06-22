@@ -36,7 +36,7 @@ IMAGER_BUILD_DEPS += "barebox"
 UBI_VOLNAME = "root"
 # The biggest NANDs on current modules are 1GB. With current partition layout,
 # this sums up to 7943 LEBs available for the ubifs
-MKUBIFS_ARGS := "-F -m 2048 -e 126976 -c 7943"
+MKUBIFS_ARGS := "-F -m 2048 -e 126976 -c 14241"
 UBINIZE_ARGS = "-m 2048 -p 128KiB -s 2048 -O 2048"
 IMAGE_TYPEDEP_ubi += "ubifs"
 IMAGE_FSTYPES ?= "tar.gz wic ubi ubifs"

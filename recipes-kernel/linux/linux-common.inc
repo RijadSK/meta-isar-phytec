@@ -16,6 +16,7 @@ SRC_URI_append = " \
   ${@bb.utils.contains('DISTRO_FEATURES', 'systemd', 'file://systemd.cfg', '', d)} \
   ${@bb.utils.contains('DEBUG_BUILD', '1', 'file://debugging.cfg', '', d)} \
   file://no-inird.cfg \
+  file://initrd.cfg   \
 "
 
 INC_PR = "r0"
